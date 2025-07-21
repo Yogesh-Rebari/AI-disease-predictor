@@ -5,6 +5,7 @@
 [![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
 
 Visit live web app for preview : [![Website](https://ai-disease-predictor-blue.vercel.app/)]
+
 An intelligent, symptom-based disease analysis tool that leverages the Google Gemini API to provide potential predictions, differential diagnoses, and helpful health information.
 
 ---
