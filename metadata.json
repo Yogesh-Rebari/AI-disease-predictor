@@ -1,0 +1,5 @@
+{
+  "name": "AI Disease Predictor",
+  "description": "A symptom-based disease analysis tool using the Gemini API to provide potential predictions and differential diagnoses.",
+  "requestFramePermissions": []
+}
