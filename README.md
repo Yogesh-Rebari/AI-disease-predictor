@@ -1,11 +1,10 @@
 
 # 🩺 AI Disease Predictor
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Status: Active](https://img.shields.io/badge/status-active-success.svg)]()
 [![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
-[![Gemini API](https://img.shields.io/badge/Gemini_API-v1-orange?logo=google-cloud)](https://ai.google.dev/)
 
+Visit live web app for preview : [![Website](https://ai-disease-predictor-blue.vercel.app/)]
 An intelligent, symptom-based disease analysis tool that leverages the Google Gemini API to provide potential predictions, differential diagnoses, and helpful health information.
 
 ---
@@ -59,8 +58,7 @@ You need to have a modern web browser and a way to serve the `index.html` file. 
 
 This application requires a Google Gemini API key to function.
 
-1.  **Get an API Key:** Visit [Google AI Studio](https://aistudio.google.com/app/apikey) to create your API key.
-2.  **Set Environment Variable:** The application is hardcoded to read the key from `process.env.API_KEY`. You must make this environment variable available to your application when you run it.
+  **Set Environment Variable:** The application is hardcoded to read the key from `process.env.API_KEY`. You must make this environment variable available to your application when you run it.
 
     For example, if deploying on a platform like **Vercel** or **Netlify**, you would set the `API_KEY` in the project's environment variable settings in their web UI.
 
