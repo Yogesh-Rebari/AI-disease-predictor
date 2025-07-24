@@ -72,7 +72,7 @@ const SymptomForm: React.FC<SymptomFormProps> = ({ onSubmit, isLoading }) => {
               onChange={(e) => setAge(parseInt(e.target.value, 10) || 0)}
               className="w-full bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 transition"
               min="1"
-              max="120"
+              max="150"
               required
             />
           </div>
